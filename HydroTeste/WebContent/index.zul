@@ -1,0 +1,32 @@
+<?page title="Projeto HydroNode"?>
+<zk xmlns:h="http://www.w3.org/1999/xhtml"
+	xmlns:zk="http://www.zkoss.org/2005/zk">
+	<div align="center">
+		<window title="WebApp - Projeto HydroNode" border="normal"
+			width="300px" style="margin-top:15pt;">
+
+			<div align="left"
+				style="margin-left:15pt;margin-top:10pt;
+margin-bottom:10pt">
+				<label value="Testes" style="font-weight: bold;" />
+				<h:br />
+				<toolbarbutton label="Line Flash Charts"
+					href="/line/flashcharts.zul" />
+				<h:br />
+				<toolbarbutton label="Live Flash Chart"
+					href="/live/flashchart.zul" />
+				<!-- 				<h:br /> -->
+				<!-- 				<toolbarbutton label="Live Inicial" -->
+				<!-- 					href="/live/inicial.zul" /> -->
+			</div>
+
+			<!-- 			<a href="/live/inicial.zul"> -->
+			<!-- 				<button label="Entrar!" /> -->
+			<!-- 			</a> -->
+
+			<!-- 			<h:br /> -->
+			<!-- 			<label value="You are using: ${desktop.webApp.version}" /> -->
+
+		</window>
+	</div>
+</zk>
